@@ -13,8 +13,8 @@ Syntax:
 Use this script to find the silent install switches for software as they are used  
 by the popular [Chocolatey](https://chocolatey.org/) software manager for Windows.
 
-The name is a reference to the [Ultimate silent switch finder](https://deployhappiness.com/the-ultimate-exe-silent-switch-finder/) which is great but it relies
-on recognizing what kind of installer your software is using and it's not being  
+The name is a reference to the [Ultimate silent switch finder](https://deployhappiness.com/the-ultimate-exe-silent-switch-finder/) which is great but  
+it relies on recognizing what kind of installer your software is using and it's not being  
 updated anymore so newer software and setups might not be recognized by it anymore.
 
 This script searches the Chocolatey repositories for the silent switches they use,
