@@ -22,7 +22,7 @@ which ensures they're always reasonably up to date and "tested" - even for oddba
 software with weird installers.
 
 Example usage and output:
-```powershell
+```
 .\cssf.ps1 -Softwarename 'nextcloud' -LimitResults 3 -FindSilentArgs
 3 results found for 'nextcloud'.
 
