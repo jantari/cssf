@@ -14,15 +14,15 @@ Use this script to find the silent install switches for software as they are use
 by the popular [Chocolatey](https://chocolatey.org/) software manager for Windows.
 
 The name is a reference to the [Ultimate silent switch finder](https://deployhappiness.com/the-ultimate-exe-silent-switch-finder/) which is great but  
-it relies on recognizing what kind of installer your software is using and it's not being  
-updated anymore so newer software and setups might not be recognized by it anymore.
+it relies on recognizing what kind of installer your software is using and since it's  
+not being updated anymore it might not recognize newer software and their installers.
 
-This script searches the Chocolatey repositories for the silent switches they use,
-which ensures they're always up to date and "tested" - even for oddball software
-with weird installers.
+This script searches the Chocolatey repositories for the silent switches they use,  
+which ensures they're always reasonably up to date and "tested" - even for oddball  
+software with weird installers.
 
-Sample usage and output:
-```
+Example usage and output:
+```powershell
 .\cssf.ps1 -Softwarename 'nextcloud' -LimitResults 3 -FindSilentArgs
 3 results found for 'nextcloud'.
 
